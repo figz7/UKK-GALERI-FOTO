@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<style>
 		.bg-image {
-			background-image: url('background.jpg');
+			background-image: url('backgroun.jpg');
 			background-size: cover;
 			height: 100vh;
 		}
