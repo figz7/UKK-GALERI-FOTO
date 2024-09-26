@@ -22,7 +22,7 @@ if ($_SESSION['status'] != 'login') {
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 	<style>
 		.bg-image {
-			background-image: url('background.jpg');
+			background-image: url('backgroun.jpg');
 			background-size: cover;
 			height: 100vh;
 		}
@@ -49,11 +49,11 @@ if ($_SESSION['status'] != 'login') {
 	</nav>
 
 	<div class="container mt-3">
-		Album :
+		<strong style="color: white;">Album: </strong>
 		<?php 
 		$album = mysqli_query($koneksi, "SELECT * FROM album WHERE userid='$userid'");
 		while($row = mysqli_fetch_array($album)){ ?>
-			<a href="home.php?albumid=<?php echo $row['albumid'] ?>" class="btn btn-outline-primary"><?php echo $row['namaalbum'] ?></a>
+			<a href="home.php?albumid=<?php echo $row['albumid'] ?>" class="btn btn-primary"><?php echo $row['namaalbum'] ?></a>
 
 		<?php } ?>
 
