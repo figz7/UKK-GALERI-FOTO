@@ -19,7 +19,7 @@ if ($_SESSION['status'] != 'login') {
   <title>Website Galeri Foto</title>
   <style>
 		.bg-image {
-			background-image: url('background.jpg');
+			background-image: url('backgroun.jpg');
 			background-size: cover;
 			height: 100vh;
 		}
