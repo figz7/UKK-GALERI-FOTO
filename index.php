@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 	<style>
 		.bg-image {
-			background-image: url('background.jpg');
+			background-image: url('backgroun.jpg');
 			background-size: cover;
 			height: 100vh;
 		}
