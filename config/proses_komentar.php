@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 include 'koneksi.php';
 
@@ -13,4 +13,4 @@ echo "<script>
 location.href='../admin/index.php';
 </script>";
 
- ?>
+?>

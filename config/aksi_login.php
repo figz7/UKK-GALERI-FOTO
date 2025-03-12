@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 include 'koneksi.php';
 
@@ -14,16 +14,15 @@ if ($cek > 0) {
 	$_SESSION['username'] = $data['username'];
 	$_SESSION['userid'] = $data['userid'];
 	$_SESSION['status'] = 'login';
-	echo"<script>
+	echo "<script>
 	alert('Login berhasil');
 	location.href='../admin/index.php';
 	</script>";
-}
-else{
-	echo"<script>
+} else {
+	echo "<script>
 	alert('Username atau Password salah!');
 	location.href='../login.php';
 	</script>";
 }
 
- ?>
+?>
