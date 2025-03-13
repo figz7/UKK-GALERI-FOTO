@@ -171,6 +171,8 @@ $userid = isset($_SESSION['userid']) ? $_SESSION['userid'] : null;
                             <input type="password" class="form-control" id="password" name="password" required>
                         </div>
                         <button type="submit" class="btn btn-primary">Login</button>
+                        <hr>
+                        <p>Belum punya akun? <a href="Register.php">Daftar disini!</a></p>
                     </form>
                 </div>
             </div>
